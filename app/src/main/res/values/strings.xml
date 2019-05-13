@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MapboxHelloApp</string>
     <string name="mapbox_access_token">pk.eyJ1IjoiY29kZXBoaWxsaXAiLCJhIjoiY2p2Z2R0NWJmMDYzaDQ5bW5kamtpN3FtNCJ9.ih7XIfvkOsvtClJODK-n6A</string>
+    <string name="simple_offline_end_progress_success">Progress End</string>
+    <string name="basic_offline_deleted_toast">Tile deleted</string>
 </resources>
