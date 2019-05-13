@@ -8,13 +8,22 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <!--<com.mapbox.mapboxsdk.maps.MapView-->
+        <!--android:id="@+id/mapView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--mapbox:mapbox_cameraTargetLat="0.347596"-->
+        <!--mapbox:mapbox_cameraTargetLng="32.5825"-->
+        <!--mapbox:mapbox_cameraZoom="11" />-->
+
     <com.mapbox.mapboxsdk.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        mapbox:mapbox_cameraTargetLat="0.347596"
-        mapbox:mapbox_cameraTargetLng="32.5825"
-        mapbox:mapbox_cameraZoom="11" />
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="42.149683"
+        mapbox:mapbox_cameraTargetLng="-119.155770"
+        mapbox:mapbox_cameraZoom="3.853171"
+        />
 
     <TextView
         android:layout_width="wrap_content"
